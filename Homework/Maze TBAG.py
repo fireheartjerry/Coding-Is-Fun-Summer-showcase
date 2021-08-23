@@ -7,7 +7,7 @@ def TrappedInPocketDimension():
     hi = input("Press ENTER to continue: ")
     print(hi)
     for i in range(5):
-        question = str(choice_list[i])
+        question = str(choice_list[0])
         question = question.replace("[","")
         question = question.replace("]","")
         question = question.replace(",","")
